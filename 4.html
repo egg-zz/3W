@@ -4,76 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charmander - Pokemon List</title>
-    <style>
-        html{
-            background-color: black;
-            font-family: arial;
-        }
-        a{
-            text-decoration: none;
-            color: rgb(224, 190, 17);
-            
-        }
-        nav{
-            border-bottom:1px solid rgb(193, 148, 43);
-            align-items: center;
-            height: 4rem;
-            padding-left: 7rem;
-        }
-        main{
-            margin-top: 40px;
-        }s
-        h2{
-            font-size: 30px;
-        }
-        .container{
-            color: white;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 10px;
-
-        }
-        img{
-            border: 1px solid rgb(193, 148, 43);
-            border-radius: 500px;
-        }
-        .container{
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            
-        }
-        .card{
-            border: 1px solid rgb(104, 104, 67);
-            border-radius: 10px;
-            padding: 10px;
-            width: 340px;
-        }
-        table{
-            border-collapse: collapse;
-            margin : 10px;
-        }
-        th, td{
-            height: 40px;
-            width: 300px;
-            border-bottom: 1px solid rgb(104, 104, 67);
-        }
-        th{
-          text-align: left;
-          font-style: bold; 
-        }
-        td{
-            text-align: right;
-            color: rgb(185, 183, 183);
-        }
-        tr:last-child td{
-            border-bottom: none;
-        }
-        tr:last-child th{
-            border-bottom: none;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
@@ -82,10 +13,10 @@
         </h1>
     </nav>
     <main>
-        <div class="container">
+        <div class="box">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png" alt="charmander">
             <h2>Charmander</h2>
-            <div class="card">
+            <div class="content">
                 <table>
                     <tr><th>Height</th> <td>7 dm</td></tr>
                     <tr><th>Weight</th> <td>69 hg</td></tr>
