@@ -19,7 +19,7 @@ h1{
 
 .container{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 3rem;
     margin: 0 15%;
     justify-items: center;
@@ -27,13 +27,17 @@ h1{
     padding-top: 30px;
 
 }
+.row{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
 .card{
     border: 1px solid rgb(104, 104, 67);
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    width: 100%;
     gap: 1.5rem;
     padding: 10px;
 }
@@ -88,7 +92,7 @@ h2{
 main{
     margin-top: 40px;
 }
-img{
+.box img{
     border: 1px solid rgb(193, 148, 43);
     border-radius: 500px;
     size: 200px;
